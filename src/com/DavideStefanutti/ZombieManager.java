@@ -111,7 +111,7 @@ public class ZombieManager {
     	sessionFactory.close();
     }
 	
-	public void saveDatabase(List<Zombie> zombies) {
+	public void DBsave(List<Zombie> zombies) {
 		Session session=sessionFactory.openSession();
 	
 		session.beginTransaction();

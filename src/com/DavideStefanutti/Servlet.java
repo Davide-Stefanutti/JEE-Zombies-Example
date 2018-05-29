@@ -45,7 +45,7 @@ public class Servlet extends HttpServlet {
 		
 		//SAVE DATA
 		zb.DBsetup();
-		zb.saveDatabase(zombies);
+		zb.DBsave(zombies);
 		zb.DBexit();
 		//---------
 		
