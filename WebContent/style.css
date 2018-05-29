@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.button_green {
+   background-color: #2f30ac;
+   color:white
+}
+
+.button_green:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button_red{
+	background-color: #ef1210;
+   color:black;
+}
+
+.button_yellow{
+	background-color: #dadf34;
+   color:black;
+}
